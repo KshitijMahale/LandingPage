@@ -1,2 +1,2 @@
 # LandingPage
-Using only HTML and CSS. The Odin Project
+Creating using only HTML and CSS from The Odin Project.
