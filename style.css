@@ -85,6 +85,10 @@ img {
     box-shadow: 0 0 4px #E5E7EB;
 }
 
+.head img {
+    width: 350px;
+}
+
 main {
     text-align: center;
 }
@@ -187,6 +191,7 @@ main {
     color: white;
     border: 2px solid white;
     border-radius: 5px;
+    height: 2rem;
 }
 
 footer {
@@ -196,4 +201,31 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 450px) {
+    #three button {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    #three {
+        padding: 15px 50px;
+        margin: 1% 5%;
+    }
+}
+
+@media (max-width: 665px) {
+    .head img {
+        display: none;
+    }
+    .links a, input, .btn1 {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #div1 {
+        margin-bottom: 20px;
+    }
 }
